@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SkillSwapPlatform2.props" />
+</Project>

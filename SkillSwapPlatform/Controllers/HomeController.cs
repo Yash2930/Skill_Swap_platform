@@ -1,8 +1,8 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SkillSwapplatform.Models;
+using SkillSwapPlatform2.Models;
+using System.Diagnostics;
 
-namespace SkillSwapplatform.Controllers
+namespace SkillSwapPlatform2.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,7 +15,18 @@ namespace SkillSwapplatform.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var users = new List<USER>
+        {
+            new USER {
+                FullName = "Marc Demo",
+                ProfilePhotoUrl = "/image/python.jpg",
+                SkillsOffered = new List<string>{ "JavaScript", "Python" },
+                SkillsWanted = new List<string>{ "Photoshop", "Graphic Design" },
+                Rating = 4.9
+            },
+            // Add more demo users here
+        };
+            return View(users);
         }
 
         public IActionResult Privacy()
