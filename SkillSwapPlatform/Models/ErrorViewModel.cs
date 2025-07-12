@@ -1,4 +1,4 @@
-namespace SkillSwapplatform.Models
+namespace SkillSwapPlatform2.Models
 {
     public class ErrorViewModel
     {

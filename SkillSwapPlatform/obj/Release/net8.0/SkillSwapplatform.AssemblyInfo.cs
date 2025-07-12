@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkillSwapplatform")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95b175f368ed5554434da4889e7ada21c0ace94e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3dcde0268521374ad5b35bc4bfb5dd1dbb509b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkillSwapplatform")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkillSwapplatform")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
