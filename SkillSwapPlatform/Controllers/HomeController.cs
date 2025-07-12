@@ -19,13 +19,28 @@ namespace SkillSwapPlatform2.Controllers
         {
             new USER {
                 FullName = "Marc Demo",
-                ProfilePhotoUrl = "/image/python.jpg",
+                ProfilePhotoUrl = "/image/person1.jpg",
                 SkillsOffered = new List<string>{ "JavaScript", "Python" },
                 SkillsWanted = new List<string>{ "Photoshop", "Graphic Design" },
                 Rating = 4.9
             },
-            // Add more demo users here
-        };
+            new USER
+        {
+            FullName = "Bob",
+            ProfilePhotoUrl = "/images/person2.jpg",
+            SkillsOffered = new List<string> { "C#", "SQL" },
+            SkillsWanted = new List<string> { "React" },
+            Rating = 4.0
+        },
+        new USER
+        {
+            FullName = "Charlie",
+            ProfilePhotoUrl = "/images/user3.jpg",
+            SkillsOffered = new List<string> { "HTML", "CSS" },
+            SkillsWanted = new List<string> { "Backend" },
+            Rating = 3.8
+        }
+    };
             return View(users);
         }
 

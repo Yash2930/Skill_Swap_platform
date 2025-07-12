@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\payal\\source\\repos\\Skill_Swap_platform\\SkillSwapPlatform\\wwwroot\\image\\python.jpg",
-      "PackagePath": "staticwebassets\\image\\python.jpg"
+      "Id": "C:\\Users\\payal\\source\\repos\\Skill_Swap_platform\\SkillSwapPlatform\\wwwroot\\image\\person1.jpg",
+      "PackagePath": "staticwebassets\\image\\person1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\payal\\source\\repos\\Skill_Swap_platform\\SkillSwapPlatform\\wwwroot\\image\\person2.jpg",
+      "PackagePath": "staticwebassets\\image\\person2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\payal\\source\\repos\\Skill_Swap_platform\\SkillSwapPlatform\\wwwroot\\image\\person3.jpg",
+      "PackagePath": "staticwebassets\\image\\person3.jpg"
     },
     {
       "Id": "C:\\Users\\payal\\source\\repos\\Skill_Swap_platform\\SkillSwapPlatform\\wwwroot\\js\\site.js",
